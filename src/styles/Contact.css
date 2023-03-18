@@ -1,0 +1,28 @@
+form.contact_input {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 28%;
+    margin-top: 50px;
+   
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 22px;
+}
+.contact_box {
+    display: flex;
+    justify-content: center;
+}
+textarea {
+    border-radius: 11px;
+}   
+input[type="submit"] {
+    border: #17cee5;
+    background-color: #17cee5;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+padding: 6px;
+}
