@@ -7,7 +7,7 @@ import "../styles/Home.css";
 import { Link } from "react-router-dom";
 function Home() {
 
-    const file = " http://localhost:3000/Nidhiresume.pdf ";
+    const file = " https://my-portfolio-sigma-virid.vercel.app/Nidhiresume.pdf ";
     const download = (url) => {
         const fileName = url.split("/").pop();
         const aTag = document.createElement("a");
@@ -23,7 +23,7 @@ function Home() {
                 <span className="primary_text">
                     {""}
                     <h2>
-                        Hi, I'M  Nidhi</h2>
+                        Hi, I'M  Nidhi Gupta</h2>
                     <h3 className="type">
 
                         {''}
@@ -69,7 +69,7 @@ function Home() {
 
                         </div>
                         <div className=" para col-md-6">
-                            <p className="para">Web Developer with Background Knowledge of React js  ,along with a knack of building
+                            <p className="mypara">Web Developer with Background Knowledge of React js  ,along with a knack of building
                                 applications with utmost efficiency .
                             </p>
 
